@@ -1,0 +1,31 @@
+.iconBtn{
+  transition: all 0.2s !important;
+}
+.iconBtn:hover{
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4) ;
+}
+.todoCard:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4) ;
+ 
+}
+.todoCard{
+  transition: all 0.2s !important;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("/public/fonts/Alexandria-Medium.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("/public/fonts/Alexandria-SemiBold.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("/public/fonts/Alexandria-Black.ttf");
+  font-weight: 900;
+}
